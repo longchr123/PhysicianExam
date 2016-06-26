@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.zhongyuedu.tiku"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 5
+        versionName "5.1.4"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile name: 'SMSSDK-2.0.1', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.0.1', ext: 'aar'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}

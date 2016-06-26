@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/item_background">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2016年全程学习计划"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="考生考前的准备阶段非常重要，合理有效的考前准备，是考生顺利通过考试的保障。"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="2016-01-25"/>
+    </LinearLayout>
+
+</LinearLayout>

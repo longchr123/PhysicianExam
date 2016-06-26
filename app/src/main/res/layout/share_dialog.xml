@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#dfe2e6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="分享"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+	<View        
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d7dade" />
+
+	<GridView
+	    android:id="@+id/share_gridView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:verticalSpacing="20dp"  
+    	android:horizontalSpacing="20dp"
+	    android:numColumns="3" >
+	</GridView>
+
+    <View        
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d7dade" />
+
+    <RelativeLayout
+        android:id="@+id/share_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="取消"
+            android:textColor="#000000"
+            android:textSize="20sp"  />
+
+    </RelativeLayout>
+
+</LinearLayout>

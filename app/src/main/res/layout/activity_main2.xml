@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asusk557.mytiku.activity.Main2Activity">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_xiti"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="练习题"
+            android:textColor="@color/colorBigTitle"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="直播课"
+            android:textColor="@color/colorBigTitle"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_cuoti"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="错题记录"
+            android:textColor="@color/colorBigTitle"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_geren"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="@color/colorBigTitle"
+            android:textSize="18sp" />
+    </RadioGroup>
+</LinearLayout>

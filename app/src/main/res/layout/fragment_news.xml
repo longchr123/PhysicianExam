@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBackground"
+        android:gravity="center"
+        android:text="直播课"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    <com.example.asusk557.mytiku.view.XListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:dividerHeight="5dp"
+        android:divider="@color/colorBigTitle"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"></com.example.asusk557.mytiku.view.XListView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="医师"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="@color/colorBackground"
+        android:textColor="@color/colorBigTitle"/>
+    <com.example.asusk557.mytiku.view.MyGridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"></com.example.asusk557.mytiku.view.MyGridView>
+</LinearLayout>
